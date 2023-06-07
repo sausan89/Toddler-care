@@ -1,0 +1,138 @@
+*{
+    text-align:justify;
+}
+#blog-post{
+
+        text-align: justify;
+
+}
+.container{
+    display: grid;
+    grid-template-columns:  70% 30%;
+    /*grid-gap: 20px;*/
+}
+.main{
+    border:5px solid black;
+    
+    height: 100%;
+}
+.main p{
+    text-align: justify;
+    display: block;
+    text-decoration: dashed;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main h4,h3{
+    padding-left: 10px;
+}
+.main ul{
+
+    padding-right: 20px;
+}
+.side{ 
+    display: flex;
+    flex-direction:column;
+    align-items:auto; 
+    align-content: center;
+    padding: 5px;
+   
+}
+
+.side a:hover{
+    background-color: #f1b2b2;
+}
+.side .bloger-info{
+    text-align: left;
+    background-color: #eddfdf;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin: 40px;
+    align-self:center;
+    padding: 80px;
+}
+.side .bloger-info .avatar{
+        vertical-align: middle;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+}
+.side .menu{
+    border:2px dotted #f1b2b2;
+    align-self:center;
+    text-align: center;
+    padding: 60px;
+}
+.side .sharing{
+  
+    padding: 60px;
+    align-self:center;
+    text-align: center;
+    
+}
+.side .sharing img{
+    border-radius: 50%;
+    vertical-align: middle;
+    align-content: center;
+}
+.side .sharing h5{
+    padding-left: 20px;
+}
+.header{
+    width: 100%;
+    height: 110px;
+    background-image:  url(image/h1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    text-align: center;
+    padding-top: 80px;
+}
+.side .contact{
+    border:2px dotted #f1b2b2;
+    align-self:center;
+    text-align: center;
+    padding:50px;
+}
+.button {
+    background-color: #97a097; /* Green */
+    border: none;
+    margin: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+.button:hover{
+    background-color: #f1b2b2;
+  }
+@media screen and (max-width:600px) {
+    .side{
+        width: 30%;
+    }
+    .container{
+        width: 100%;
+        
+    }
+    .main{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:1200px) {
+    .container{
+        width:100%;
+        
+    }
+    .main{
+        width: 70%;
+    }
+    .side{
+        width: 30%;
+    }
+    
+}

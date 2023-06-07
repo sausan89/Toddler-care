@@ -1,0 +1,61 @@
+@import"./blog.css";
+@import"./footer.css";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*page container*/
+
+.container{
+    background-color: rgb(249, 240, 246);
+    display: grid;
+    align-content: stretch;
+    grid-template-areas:'header'
+                        'main'
+                        'foorer';
+
+}
+.container .footer{
+    display: grid;
+    grid-area: footer;
+    align-items: stretch;
+  
+}
+
+@media(max-width=1250px){
+
+    .blog-box{
+        width:300px;
+    }
+}
+@media(max-width:1100px){
+    .blog-box{
+        width: 70%;
+    }
+}
+@media(max-width:550px){
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+    #blog{
+        padding: 20px ;
+    }
+}
+
