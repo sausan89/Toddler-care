@@ -1,10 +1,29 @@
 *{
     text-align:justify;
+ 
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color:black;
+    align-items: stretch;
+
 }
 #blog-post{
 
         text-align: justify;
 
+}
+.header{
+    width: 100%;
+    height: 110px;
+    background-image:  url(image/h1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    text-align: center;
+    padding-top: 80px;
 }
 .container{
     display: grid;
@@ -12,8 +31,7 @@
     /*grid-gap: 20px;*/
 }
 .main{
-    border:5px solid black;
-    
+    border: 10px dotted #f1b2b2;    
     height: 100%;
 }
 .main p{
@@ -35,8 +53,7 @@
     flex-direction:column;
     align-items:auto; 
     align-content: center;
-    padding: 5px;
-   
+    padding: 30px;
 }
 
 .side a:hover{
@@ -44,10 +61,8 @@
 }
 .side .bloger-info{
     text-align: left;
-    background-color: #eddfdf;
-    margin-bottom: 60px;
-    margin-top: 60px;
-    margin: 40px;
+    border: 5px dotted #f1b2b2;
+    margin: 60px;
     align-self:center;
     padding: 80px;
 }
@@ -59,16 +74,25 @@
         border-radius: 50%;
 }
 .side .menu{
-    border:2px dotted #f1b2b2;
+    border: 5px dotted #f1b2b2;
     align-self:center;
     text-align: center;
     padding: 60px;
 }
+.side .menu ul{
+    list-style-type: none;
+    color: black;
+}
+.side .menu ul li:hover{
+    background-color: #f1b2b2;
+    color: black;
+}
 .side .sharing{
-  
+    border: 5px dotted #f1b2b2;
     padding: 60px;
     align-self:center;
     text-align: center;
+    margin: 50px;
     
 }
 .side .sharing img{
@@ -79,21 +103,13 @@
 .side .sharing h5{
     padding-left: 20px;
 }
-.header{
-    width: 100%;
-    height: 110px;
-    background-image:  url(image/h1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: large;
-    text-align: center;
-    padding-top: 80px;
-}
+
 .side .contact{
-    border:2px dotted #f1b2b2;
+    border:5px dotted #f1b2b2;
     align-self:center;
     text-align: center;
     padding:50px;
+    margin:50px;
 }
 .button {
     background-color: #97a097; /* Green */
@@ -105,11 +121,13 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 12px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
 .button:hover{
     background-color: #f1b2b2;
   }
+  /*
 @media screen and (max-width:600px) {
     .side{
         width: 30%;
@@ -136,3 +154,4 @@
     }
     
 }
+*/

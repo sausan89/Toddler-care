@@ -1,5 +1,6 @@
 @import"./blog.css";
 @import"./footer.css";
+@import"./card.css";
 *{
     margin: 0px;
     padding: 0px;
@@ -7,21 +8,47 @@
     box-sizing: border-box;
    
 }
+nav{
+    display: inline-block;
+    border-radius:30px;
+   
+    
+}
 a{
     text-decoration: none;
+    border-radius: 30px;
+    color: black;
+    
 }
 ul{
-    list-style: none;
+    display: flex;
+    gap:1em;
 }
-
+ul li{
+    list-style-type: none;
+    display: block;
+    transition: 0.5s;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+ul li:hover{
+    text-decoration: underline;
+    background-color: #e6a9a9;
+    color: aliceblue;
+}
 body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
-/*page container*/
+footer{
+    text-align: center;
+    padding: 3px;
+    color:black;
 
+}
+/*page container*/
 .container{
     background-color: rgb(249, 240, 246);
     display: grid;
@@ -35,7 +62,7 @@ body{
     display: grid;
     grid-area: footer;
     align-items: stretch;
-  
+    
 }
 
 @media(max-width=1250px){
@@ -56,6 +83,7 @@ body{
     }
     #blog{
         padding: 20px ;
+        new need to check
+        flex-wrap: wrap;
     }
 }
-
