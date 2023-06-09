@@ -11,8 +11,6 @@
 nav{
     display: inline-block;
     border-radius:30px;
-   
-    
 }
 a{
     text-decoration: none;
@@ -83,7 +81,7 @@ footer{
     }
     #blog{
         padding: 20px ;
-        new need to check
+        /*new need to check*/
         flex-wrap: wrap;
     }
 }

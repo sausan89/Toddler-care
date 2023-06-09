@@ -37,6 +37,8 @@ footer{
 .main p{
     text-align: justify;
     display: block;
+    font-weight: 200;
+    font-size: medium;
     text-decoration: dashed;
     padding-left: 20px;
     padding-right: 20px;
@@ -47,13 +49,14 @@ footer{
 .main ul{
 
     padding-right: 20px;
+    font-size: medium;
 }
 .side{ 
     display: flex;
     flex-direction:column;
     align-items:auto; 
     align-content: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .side a:hover{
@@ -77,7 +80,7 @@ footer{
     border: 5px dotted #f1b2b2;
     align-self:center;
     text-align: center;
-    padding: 60px;
+    padding: 50px;
 }
 .side .menu ul{
     list-style-type: none;
@@ -89,7 +92,7 @@ footer{
 }
 .side .sharing{
     border: 5px dotted #f1b2b2;
-    padding: 60px;
+    padding: 30px;
     align-self:center;
     text-align: center;
     margin: 50px;

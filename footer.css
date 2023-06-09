@@ -1,9 +1,8 @@
-.footer{
-    grid-area: footer;
-    align-content:stretch;
-
-}
-.footer p{
+footer{
+    text-align: center;
+    padding: 3px;
+    color:black;
     font-size: xx-small;
     font:italic;
+
 }
